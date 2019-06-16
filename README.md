@@ -1,4 +1,4 @@
-# springbootrestjpasecurity
+
 A Java Spring Boot REST API and MVC Web Application using Spring Security
 
 This Java Spring Boot REST API and MVC Web application ( Spring Security ) was made by the following technology: 
