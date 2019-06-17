@@ -27,8 +27,8 @@
                        <li><a href="/logout">Logout</a></li>
                    </sec:authorize>
                    <sec:authorize access="!isAuthenticated()">
-                        <li><a href="/demo/mvclistpersons">Show persons MVC</a></li>
-                      <li><a href="/login">Login to administrate the persons by REST Api and MVC</a></li>
+                     <li><a href="/demo/mvclistpersons">Show persons MVC</a></li>
+                      <li><a href="/login">Login to admin persons REST API / MVC</a></li>
                     </sec:authorize>
                
                    

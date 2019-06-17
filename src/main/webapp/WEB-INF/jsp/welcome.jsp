@@ -40,7 +40,7 @@
 	some of the pages/views are protected by a Login Form!
 	<br>
 	Take a look at the Web application by using the menu item "Show persons" or
-	by using the link <a href="/demo/mvclistpersons" target="_top">here</a>
+	login to admin persons using the link <a href="/login" target="_top">here</a>
 	<br>
 	
 	<br>
