@@ -13,7 +13,7 @@ import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 
-import com.persteenolsen.springbootrestjpalogin.model.ValidEmail;
+//import com.persteenolsen.springbootrestjpalogin.model.ValidEmail;
 
 // The table in the Database will have a name almost equal to "SpringBootMvcJpaLoginPersons"
 @Entity
