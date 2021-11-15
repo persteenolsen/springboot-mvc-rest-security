@@ -57,20 +57,20 @@
            </exclusions>
 		</dependency>
     
-	   <dependency>
-         <groupId>org.apache.tomcat</groupId>
-         <artifactId>tomcat-jdbc</artifactId>
-         <version>9.0.10</version>
-       </dependency>
-
 	   
 
       <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 	  <!--PS: New version nedeed to be manually downloded while upgrading to Java 11 from Java 8-->
-      <dependency>
-         <groupId>mysql</groupId>
-         <artifactId>mysql-connector-java</artifactId>
-         <version>8.0.26</version>
+      		 <dependency>
+          <groupId>mysql</groupId>
+           <artifactId>mysql-connector-java</artifactId>
+         </dependency>
+
+	   
+	   <dependency>
+         <groupId>org.apache.tomcat</groupId>
+         <artifactId>tomcat-jdbc</artifactId>
+         <version>9.0.10</version>
        </dependency>
 
     
