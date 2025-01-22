@@ -55,8 +55,9 @@
 	<br><br>
 
 	<ul>
-    <li>Updated: 03-10-2023</li>
+    <li>Updated: 22-01-2025</li>
 	<li>Migration from Java 8 to Java 11</li>
+	<li>Spring Boot 2</li>
 	<li>Visual Studio Code with the Microsoft Java Extension Pack</li>	
 	<li>Microsoft Azure App Service with a Free App Service Plan for web hosting</li>
 	<li>JVM memory have been set to an alocation of 512 MB both initial and max because of the limited physial memory</li>
