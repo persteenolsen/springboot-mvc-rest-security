@@ -3,7 +3,7 @@ A Java Spring Boot REST API and MVC Web Application using Spring Security
 
 This Java Spring Boot REST API and MVC Web application ( Spring Security ) was made by the following technology: 
 
-Last updated: 22-01-2025
+Last updated: 30-01-2025
 
 - springboot-rest-jpa-security at GitHub
 - Migration from Java 8 to Java 11
@@ -22,4 +22,41 @@ Last updated: 22-01-2025
 - Hibernate Validator and Apache Commons Validater for server side form validation
 - JSP for the View part ( GUI )
 - Bootstrap for the responsive design
+
+# Config at Azure App Service
+
+- Java 11
+- Tomecat 8.5
+- Copy the ROOT.war to wwwroot - webapps ( Stop / Start the Web App by Azure Portal )
+
+# Usage
+
+- Download or fork the source code from GitHub
+
+# Create the file application.properties with the content below and place the file in the resources folder
+
+spring.datasource.url=jdbc:mysql:// The name of the MySQL server / The name of the database?useSSL=false&serverTimezone=UTC
+
+spring.datasource.username=The username of the MySQL server
+
+spring.datasource.password= The password of the MySQL server
+
+# When the database already is created !
+
+spring.jpa.hibernate.ddl-auto = none
+
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5InnoDBDialect
+
+# The first run only for creating the database !
+
+#spring.jpa.hibernate.ddl-auto = create
+
+#spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5InnoDBDialect
+
+spring.mvc.view.prefix: /WEB-INF/jsp/
+
+spring.mvc.view.suffix: .jsp
+
+application.message: Hello World!!
+
 
