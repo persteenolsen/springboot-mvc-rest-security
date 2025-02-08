@@ -1,11 +1,11 @@
 
-A Java Spring Boot REST API and MVC Web Application using Spring Security
+A Java Spring Boot 2 REST API and MVC Web Application using Spring Security
 
 This Java Spring Boot REST API and MVC Web application ( Spring Security ) was made by the following technology: 
 
-Last updated: 30-01-2025
+Last updated: 08-02-2025
 
-- springboot-rest-jpa-security at GitHub
+- Renamed to: springboot-mvc-rest-security at GitHub
 - Migration from Java 8 to Java 11
 - Tested with Java 17 at the Dev PC but Java 11 in pom.xml
 - Spring Boot 2
